@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff07 scene
 //Name: Rocket.ma
-//Last modified: Thu, May 31, 2018 08:31:24 PM
+//Last modified: Thu, May 31, 2018 08:30:40 PM
 //Codeset: 1252
 requires maya "2018ff07";
 currentUnit -l meter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "8AA25D4A-4CF8-E5CB-2692-E7844F9F2F49";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 26.742533032121784 -9.6683417879005624 -2.1719061428132203 ;
-	setAttr ".r" -type "double3" -330.93835273979829 815.39999999986583 0 ;
+	setAttr ".t" -type "double3" 48.779012082045845 2.6389809226230567 -3.5335292889942673 ;
+	setAttr ".r" -type "double3" -355.53835273980854 814.59999999987417 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7773D5CE-4F71-397B-17FE-4FA84D6841A6";
 	setAttr -k off ".v" no;
@@ -22,7 +22,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 33.599998116035152;
+	setAttr ".coi" 51.597872163337513;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -2554,23 +2554,12 @@ createNode mesh -n "Left_thrusterShape" -p "Left_thruster";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.50719550251960754 0.27299255132675171 ;
+	setAttr ".pv" -type "double2" 0.28718626729449981 0.8534453787408397 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 21 ".pt";
-	setAttr ".pt[31]" -type "float3" 0 0 5.7220458e-08 ;
-	setAttr ".pt[32]" -type "float3" -5.7220458e-08 0 3.8146972e-08 ;
-	setAttr ".pt[33]" -type "float3" 5.7220458e-08 0 1.1444092e-07 ;
-	setAttr ".pt[34]" -type "float3" -3.8146972e-08 0 5.7220458e-08 ;
-	setAttr ".pt[35]" -type "float3" -3.8146972e-08 0 0 ;
-	setAttr ".pt[36]" -type "float3" 0 0 -5.7220458e-08 ;
-	setAttr ".pt[37]" -type "float3" -4.7683717e-08 0 -3.8146972e-08 ;
-	setAttr ".pt[38]" -type "float3" -9.536743e-09 0 -3.8146972e-08 ;
-	setAttr ".pt[39]" -type "float3" 0 0 -5.7220458e-08 ;
-	setAttr ".pt[40]" -type "float3" 3.8146972e-08 0 -1.1368684e-14 ;
 createNode mesh -n "polySurfaceShape2" -p "Left_thruster";
 	rename -uid "A1706BD6-4EF8-7443-54C4-6396652EAD2E";
 	setAttr -k off ".v";
