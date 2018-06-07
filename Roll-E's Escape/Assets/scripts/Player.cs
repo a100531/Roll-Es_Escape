@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
 		if(other.tag == "Enemy")
 		{
 			Debug.Log("you are dead");
+    
 		}
 		if(other.tag == "Safe House")
 		{

@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: bf6eba95e27cfbb41a7a53fccb02539b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Cockpit
+    100004: Cockpit_body
+    100006: Cockpit_connector
+    100008: Cockpit_window_1
+    100010: Cockpit_window_2
+    100012: Head
+    100014: Head_connector
+    100016: Left_body
+    100018: Left_bottom_connector
+    100020: Left_holder
+    100022: Left_thruster
+    100024: Left_top
+    100026: Left_top_connector
+    100028: Left_wing
+    100030: Right_body
+    100032: Right_bottom_connector
+    100034: Right_holder
+    100036: Right_thruster
+    100038: Right_Top
+    100040: Right_Top_connector
+    100042: Right_wing
+    100044: //RootNode
+    100046: Thruster
+    100048: Thruster 1
+    100050: Thruster_connector
+    100052: Top
+    400000: Body
+    400002: Cockpit
+    400004: Cockpit_body
+    400006: Cockpit_connector
+    400008: Cockpit_window_1
+    400010: Cockpit_window_2
+    400012: Head
+    400014: Head_connector
+    400016: Left_body
+    400018: Left_bottom_connector
+    400020: Left_holder
+    400022: Left_thruster
+    400024: Left_top
+    400026: Left_top_connector
+    400028: Left_wing
+    400030: Right_body
+    400032: Right_bottom_connector
+    400034: Right_holder
+    400036: Right_thruster
+    400038: Right_Top
+    400040: Right_Top_connector
+    400042: Right_wing
+    400044: //RootNode
+    400046: Thruster
+    400048: Thruster 1
+    400050: Thruster_connector
+    400052: Top
+    2100000: aiStandardSurface2
+    2100002: aiStandardSurface7
+    2100004: aiStandardSurface11
+    2100006: aiStandardSurface5
+    2100008: aiStandardSurface21
+    2100010: aiStandardSurface6
+    2100012: aiStandardSurface22
+    2100014: aiStandardSurface8
+    2100016: aiStandardSurface20
+    2100018: aiStandardSurface10
+    2100020: aiStandardSurface18
+    2100022: aiStandardSurface9
+    2100024: aiStandardSurface12
+    2100026: aiStandardSurface4
+    2100028: aiStandardSurface14
+    2100030: aiStandardSurface3
+    2100032: aiStandardSurface13
+    2100034: aiStandardSurface15
+    2100036: aiStandardSurface16
+    2100038: aiStandardSurface1
+    2100040: aiStandardSurface19
+    2300000: Body
+    2300002: Cockpit_body
+    2300004: Cockpit_connector
+    2300006: Cockpit_window_1
+    2300008: Cockpit_window_2
+    2300010: Head
+    2300012: Head_connector
+    2300014: Left_body
+    2300016: Left_bottom_connector
+    2300018: Left_holder
+    2300020: Left_thruster
+    2300022: Left_top
+    2300024: Left_top_connector
+    2300026: Right_body
+    2300028: Right_bottom_connector
+    2300030: Right_holder
+    2300032: Right_thruster
+    2300034: Right_Top
+    2300036: Right_Top_connector
+    2300038: Thruster 1
+    2300040: Thruster_connector
+    3300000: Body
+    3300002: Cockpit_body
+    3300004: Cockpit_connector
+    3300006: Cockpit_window_1
+    3300008: Cockpit_window_2
+    3300010: Head
+    3300012: Head_connector
+    3300014: Left_body
+    3300016: Left_bottom_connector
+    3300018: Left_holder
+    3300020: Left_thruster
+    3300022: Left_top
+    3300024: Left_top_connector
+    3300026: Right_body
+    3300028: Right_bottom_connector
+    3300030: Right_holder
+    3300032: Right_thruster
+    3300034: Right_Top
+    3300036: Right_Top_connector
+    3300038: Thruster 1
+    3300040: Thruster_connector
+    4300000: Body
+    4300002: Right_body
+    4300004: Right_holder
+    4300006: Right_Top
+    4300008: Right_Top_connector
+    4300010: Right_thruster
+    4300012: Right_bottom_connector
+    4300014: Left_body
+    4300016: Left_holder
+    4300018: Left_top
+    4300020: Left_top_connector
+    4300022: Left_thruster
+    4300024: Left_bottom_connector
+    4300026: Head
+    4300028: Head_connector
+    4300030: Cockpit_body
+    4300032: Cockpit_connector
+    4300034: Cockpit_window_1
+    4300036: Cockpit_window_2
+    4300038: Thruster
+    4300040: Thruster_connector
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface1
+    second: {fileID: 2100000, guid: 20b7a6a82d88bb940946ed55b7a17afc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface10
+    second: {fileID: 2100000, guid: 022fb97002a388643bdcbdedc69a3cd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface11
+    second: {fileID: 2100000, guid: abe4de1280b116948a7b8f0abf818ba8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface12
+    second: {fileID: 2100000, guid: c16f1a7fa72311842a4481f209b637ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface13
+    second: {fileID: 2100000, guid: cfa30f1816e0e094ba348ded7bbda295, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface14
+    second: {fileID: 2100000, guid: f5ab97f24b27aa44eaff65cae65affcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface15
+    second: {fileID: 2100000, guid: 384a5b33ce0c346409fd55350cbeb8d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface16
+    second: {fileID: 2100000, guid: 8e7fb79100d300a4ea738a5fbb546539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface18
+    second: {fileID: 2100000, guid: 483245deeb9af5e48b9c9299a84deea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface19
+    second: {fileID: 2100000, guid: 31ca0a372e5b2ec4e80a93cbf8dfb62d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: 55a9b053750679c4780751e0b728fd20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface20
+    second: {fileID: 2100000, guid: b442b428a669a8c43a978c01768c62b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface21
+    second: {fileID: 2100000, guid: 7a050b88bb575c942af1702034c37609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface22
+    second: {fileID: 2100000, guid: 8c3b9c7340438804ca6e1ce398444915, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface3
+    second: {fileID: 2100000, guid: 2437a1fc8fb05cb40aeb1214b969905b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4
+    second: {fileID: 2100000, guid: e0f232c533ad6264ca4f224944145436, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface5
+    second: {fileID: 2100000, guid: bd7d24ae72afcaa47b361200e98ac191, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface6
+    second: {fileID: 2100000, guid: 1e82c75e44c679e43a56b4792cc6c97c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface7
+    second: {fileID: 2100000, guid: 5ac246d96130cfd4b8e08d9d493dac6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface8
+    second: {fileID: 2100000, guid: 1e671afb7965b08488efcb3df00f0a4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface9
+    second: {fileID: 2100000, guid: fa7ff38344e971746b9e6118d0a0b63e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Body1
+    second: {fileID: 2800000, guid: 45c2bc9e608ff68458b2e38ec3b589a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit1
+    second: {fileID: 2800000, guid: 6f3a9708d8dcfa7438a035b4b11c32b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit_Connector1
+    second: {fileID: 2800000, guid: 7a3902444fdebfd418772b8f1815b17b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit_window_1_1
+    second: {fileID: 2800000, guid: c95875a82d19613428a314d3ebdac413, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit_window_2_1
+    second: {fileID: 2800000, guid: cb8dab37046385445a4429c790b5192d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head1
+    second: {fileID: 2800000, guid: 3e6726ac14047824388b064c986de4f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head_connector1
+    second: {fileID: 2800000, guid: 070c12496faed7442908a6723316309e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_Thruster1
+    second: {fileID: 2800000, guid: e087c1ce2299f03498dc9bf9e47130b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_body1
+    second: {fileID: 2800000, guid: f2b92e8a0ec3a084d8723cc94f9197f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_bottom_connector1
+    second: {fileID: 2800000, guid: 67bd8cb5d3ea11345907050c32c2e363, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_top1
+    second: {fileID: 2800000, guid: 365b56a6c3874224babe4617bfb820fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_top_connector1
+    second: {fileID: 2800000, guid: a2a08797017c21a4286b280115c18547, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_wing_holder1
+    second: {fileID: 2800000, guid: 9c03651dfcbcfc149a1bd41089440bda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_Thruster1
+    second: {fileID: 2800000, guid: 45a2ec186ae61534a844a9c0844bca3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_body1
+    second: {fileID: 2800000, guid: 1b8191a347c911a4186c1b2b7fc29f6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_bottom_connector1
+    second: {fileID: 2800000, guid: a3dc34087a606c04db58d7092fff3166, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_holder1
+    second: {fileID: 2800000, guid: 57679dae3ab7eb842bb6b57479d0344e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_top2
+    second: {fileID: 2800000, guid: 651d8e086259dd34b8018acf040f12a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_top_connector1
+    second: {fileID: 2800000, guid: 15e1a6661815c26488fd70fb6615728d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Thruster1
+    second: {fileID: 2800000, guid: 78bc9f65eb70c04479552f053a584876, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Thruster_connector1
+    second: {fileID: 2800000, guid: 390aac9e4e1720041a26a56a3bb59152, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

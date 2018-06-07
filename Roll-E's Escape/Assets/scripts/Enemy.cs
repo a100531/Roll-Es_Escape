@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour{
 
     void Update () {
 
-        Debug.Log(Player.chase);
+        //Debug.Log(Player.chase);
        
         if (Player.chase)
 		{
