@@ -3,24 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : GameManager {
 
 	public Camera cam;
 
+	public GameObject player;
+
+	public Vector3 playerPosition;
 	public NavMeshAgent agent; 
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetMouseButton(0))
-		{
-			Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-			RaycastHit hit;
-
-			if (Physics.Raycast(ray, out hit))
-			{
-				agent.SetDestination(hit.point);
-			}
+		
+			playerPosition = new Vector3(player.transform.position.x,player.transform.position.y,player.transform.position.z);
 			
-		}
+			agent.SetDestination(playerPosition);
+		
 	}
 }
