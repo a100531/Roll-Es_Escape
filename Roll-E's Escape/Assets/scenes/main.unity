@@ -126,9 +126,10 @@ GameObject:
   - component: {fileID: 45731177}
   - component: {fileID: 45731176}
   - component: {fileID: 45731175}
+  - component: {fileID: 45731181}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,7 +148,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 116
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &45731176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 50
+  cam: {fileID: 661051103}
 --- !u!65 &45731177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -221,12 +223,33 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 45731174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -78.3, y: 2.75, z: 30}
+  m_LocalPosition: {x: 0, y: 2.75, z: -83.4}
   m_LocalScale: {x: 2, y: 5, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &45731181
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 45731174}
+  m_Enabled: 1
+  m_AgentTypeID: -334000983
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 1
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &220365182
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +350,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &256255352
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +451,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &348479087
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +552,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &405875069
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +653,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &535056880
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +796,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &584402253
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +852,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593813988
 GameObject:
@@ -931,7 +954,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &607036225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1055,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &661051100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,11 +1131,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 661051100}
   m_LocalRotation: {x: 0.40769038, y: 0.24373047, z: -0.11387518, w: 0.87259185}
-  m_LocalPosition: {x: -28.6, y: 84.4, z: -57.9}
-  m_LocalScale: {x: 1, y: 1.2179837, z: 1.2179841}
+  m_LocalPosition: {x: -26.9, y: 80.5, z: -138.5}
+  m_LocalScale: {x: 1, y: 1.4834844, z: 1.4834851}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50.086002, y: 31.212002, z: 0}
 --- !u!1 &761319521
 GameObject:
@@ -1214,7 +1237,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &888483236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,7 +1253,7 @@ GameObject:
   - component: {fileID: 888483237}
   m_Layer: 9
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1270,7 +1293,7 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 1
   m_BaseOffset: 0.5
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 5
   m_ObstacleAvoidanceType: 4
 --- !u!65 &888483239
 BoxCollider:
@@ -1279,10 +1302,10 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 888483236}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 5, y: 1, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &888483240
 MeshRenderer:
@@ -1402,7 +1425,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &988711644
 GameObject:
@@ -1504,7 +1527,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &1066230311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,7 +1628,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &1536094957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,7 +1729,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &1676808175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,7 +1854,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1758198696
 GameObject:
@@ -1933,7 +1956,7 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec
 --- !u!1 &1903935166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,4 +2057,4 @@ MonoBehaviour:
   m_OverrideArea: 1
   m_Area: 1
   m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
+  m_AffectedAgents: a98c17ec

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Player : GameManager {
 
@@ -27,6 +28,18 @@ public class Player : GameManager {
 		{
 			gameObject.transform.Translate(playerSpeed*Time.deltaTime,0,0);
 		}
+		
 
+	}
+	/// <summary>
+	/// OnTriggerEnter is called when the Collider other enters the trigger.
+	/// </summary>
+	/// <param name="other">The other Collider involved in this collision.</param>
+	void OnTriggerEnter(Collider other)
+	{
+		if(other.tag == "Enemy")
+		{
+			Debug.Log("you are dead");
+		}
 	}
 }
