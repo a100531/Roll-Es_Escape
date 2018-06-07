@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 329b831949d7a4047b265f942adca3aa
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: Eye
+    100006: Finger_1
+    100008: Finger_2
+    100010: Fingers
+    100012: Hand_with_fingers
+    100014: Left_arm
+    100016: left_arm
+    100018: left_bottom_joint
+    100020: left_finger_1
+    100022: left_finger_2
+    100024: Left_hand
+    100026: Left_hand_with_fingers
+    100028: Left_joints
+    100030: Left_top_joint
+    100032: Legs
+    100034: right_arm
+    100036: right_arm 1
+    100038: Right_bottom_joint
+    100040: Right_fingers
+    100042: Right_hand
+    100044: Right_joints
+    100046: Right_top_joint
+    100048: UpperBody
+    100050: Wheel
+    100052: Wheel 1
+    100054: Wheel_Joint
+    400000: Body
+    400002: //RootNode
+    400004: Eye
+    400006: Finger_1
+    400008: Finger_2
+    400010: Fingers
+    400012: Hand_with_fingers
+    400014: Left_arm
+    400016: left_arm
+    400018: left_bottom_joint
+    400020: left_finger_1
+    400022: left_finger_2
+    400024: Left_hand
+    400026: Left_hand_with_fingers
+    400028: Left_joints
+    400030: Left_top_joint
+    400032: Legs
+    400034: right_arm
+    400036: right_arm 1
+    400038: Right_bottom_joint
+    400040: Right_fingers
+    400042: Right_hand
+    400044: Right_joints
+    400046: Right_top_joint
+    400048: UpperBody
+    400050: Wheel
+    400052: Wheel 1
+    400054: Wheel_Joint
+    2100000: aiStandardSurface17
+    2100002: aiStandardSurface18
+    2100004: aiStandardSurface9
+    2100006: aiStandardSurface6
+    2100008: aiStandardSurface7
+    2100010: aiStandardSurface8
+    2100012: aiStandardSurface10
+    2100014: aiStandardSurface13
+    2100016: aiStandardSurface12
+    2100018: aiStandardSurface5
+    2100020: aiStandardSurface3
+    2100022: aiStandardSurface4
+    2100024: aiStandardSurface11
+    2100026: aiStandardSurface16
+    2100028: aiStandardSurface14
+    2100030: aiStandardSurface2
+    2100032: aiStandardSurface1
+    2300000: Body
+    2300002: Eye
+    2300004: Finger_1
+    2300006: Finger_2
+    2300008: left_arm
+    2300010: left_bottom_joint
+    2300012: left_finger_1
+    2300014: left_finger_2
+    2300016: Left_hand
+    2300018: Left_top_joint
+    2300020: Legs
+    2300022: right_arm 1
+    2300024: Right_bottom_joint
+    2300026: Right_hand
+    2300028: Right_top_joint
+    2300030: Wheel 1
+    2300032: Wheel_Joint
+    3300000: Body
+    3300002: Eye
+    3300004: Finger_1
+    3300006: Finger_2
+    3300008: left_arm
+    3300010: left_bottom_joint
+    3300012: left_finger_1
+    3300014: left_finger_2
+    3300016: Left_hand
+    3300018: Left_top_joint
+    3300020: Legs
+    3300022: right_arm 1
+    3300024: Right_bottom_joint
+    3300026: Right_hand
+    3300028: Right_top_joint
+    3300030: Wheel 1
+    3300032: Wheel_Joint
+    4300000: Legs
+    4300002: Wheel_Joint
+    4300004: Wheel
+    4300006: right_arm
+    4300008: Right_top_joint
+    4300010: Right_bottom_joint
+    4300012: Right_hand
+    4300014: Finger_1
+    4300016: Finger_2
+    4300018: Left_top_joint
+    4300020: left_arm
+    4300022: left_bottom_joint
+    4300024: Left_hand
+    4300026: left_finger_2
+    4300028: left_finger_1
+    4300030: Eye
+    4300032: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Eye4
+    second: {fileID: 2800000, guid: c74d9fa3966b51c4c8ce654f468b89d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head4
+    second: {fileID: 2800000, guid: bd89c8adb7f659245829b6d5dcfc376b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wheel3
+    second: {fileID: 2800000, guid: ddb959e21d323c54c9c94576e67095bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: left_arm1
+    second: {fileID: 2800000, guid: cc93825c4c98e0c4ab0b1941894740d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: left_bottom_joint1
+    second: {fileID: 2800000, guid: b1546710b4982e840be5326c27e8ca7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: left_finger_1_1
+    second: {fileID: 2800000, guid: c09e1de4681534e4aa9abb488c6fe269, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: left_finger_2_1
+    second: {fileID: 2800000, guid: bc254c0d73234784e85d7ec34fd9e02a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: left_hand2
+    second: {fileID: 2800000, guid: ac5742b8efea76d489062b773035c714, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: left_top_joint1
+    second: {fileID: 2800000, guid: 1698e9a020104b94e86d8d106ff1b028, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: legs1
+    second: {fileID: 2800000, guid: 7790bd95a09e49648a4a1a813485ec78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: right_arm1
+    second: {fileID: 2800000, guid: 640b4bfd043c07e49aa0f58fe98de7f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: right_bottom_joint1
+    second: {fileID: 2800000, guid: b66586e29296f4c47bbb37b600ae9d04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: right_finger_2_1
+    second: {fileID: 2800000, guid: dad53588f58e5284ea8c0e28c800aae0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: right_hand1
+    second: {fileID: 2800000, guid: 91860ac047e6e2d4fb5e23800b964546, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: right_top_joint1
+    second: {fileID: 2800000, guid: 4c4ec291d8f113d44828e1c4264f7400, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

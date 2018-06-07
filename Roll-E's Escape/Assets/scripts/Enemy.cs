@@ -8,17 +8,21 @@ public class Enemy : MonoBehaviour{
 	public Camera cam;
 
 	public GameObject player;
+    public GameObject spawner;
 
     //public Player playerScript;
 
 	public Vector3 playerPosition;
-	public NavMeshAgent agent;
+    //public Vector3 spawnerPosition;
+    public NavMeshAgent agent;
     // Update is called once per frame
 
     void Start()
     {
 
         //chase = false;
+        //spawnerPosition = new Vector3(spawner.transform.position.x, spawner.transform.position.y, spawner.transform.position.z);
+        //agent.Warp(spawnerPosition);
     }
 
     void Update () {
