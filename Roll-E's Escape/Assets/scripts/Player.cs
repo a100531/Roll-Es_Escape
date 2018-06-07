@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Player : GameManager {
+public class Player : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    public float playerSpeed = 10;
+    public static bool chase;
+    // Use this for initialization
+    void Start () {
+        chase = false;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -40,6 +43,20 @@ public class Player : GameManager {
 		if(other.tag == "Enemy")
 		{
 			Debug.Log("you are dead");
+		}
+		if(other.tag == "Safe House")
+		{
+			if(!chase)
+			{
+				chase = true;
+				Debug.Log("RUN!!!");
+			}
+			else
+			{
+				chase = false;
+                Debug.Log("YOU ARE SAFE");
+			}
+			
 		}
 	}
 }
