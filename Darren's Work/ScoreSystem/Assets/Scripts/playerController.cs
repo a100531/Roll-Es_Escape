@@ -26,6 +26,14 @@ public class playerController : MonoBehaviour {
 			LifeScript.LiveValue -= 1;
 			chase = false;
 		}
+		if(col.gameObject.tag == "pickup")
+		{
+			LifeScript.LiveValue += 1;
+			col.gameObject.SetActive (false);
+		}
 
 	}
+	
+	
+	
 }
