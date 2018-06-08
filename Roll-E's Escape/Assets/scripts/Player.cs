@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
 
     public float playerSpeed = 10;
+    public float rotationSpeed = 5;
     public static bool chase;
     // Use this for initialization
     void Start () {
@@ -15,29 +16,25 @@ public class Player : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKey(KeyCode.LeftArrow))
-		{
-			gameObject.transform.Translate(0,0,playerSpeed*Time.deltaTime);
-		}
-		else if(Input.GetKey(KeyCode.RightArrow))
-		{
-			gameObject.transform.Translate(0,0,-playerSpeed*Time.deltaTime);
-		}
-		else if(Input.GetKey(KeyCode.DownArrow))
-		{
-			gameObject.transform.Translate(-playerSpeed*Time.deltaTime,0,0);
-		}
-		else if(Input.GetKey(KeyCode.UpArrow))
-		{
-			gameObject.transform.Translate(playerSpeed*Time.deltaTime,0,0);
-		}
-		
+        
+        //float moveHorizontal = Input.GetAxisRaw("Horizontal");
+        //float moveVertical = Input.GetAxisRaw("Vertical");
 
-	}
-	/// <summary>
-	/// OnTriggerEnter is called when the Collider other enters the trigger.
-	/// </summary>
-	/// <param name="other">The other Collider involved in this collision.</param>
+       // Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        //transform.rotation = Quaternion.LookRotation(movement);
+
+
+        //transform.Translate(movement * playerSpeed * Time.deltaTime, Space.World);
+
+        float x = Input.GetAxis("Horizontal") * Time.deltaTime * playerSpeed;
+        float z = Input.GetAxis("Vertical") * Time.deltaTime * playerSpeed;
+
+        transform.Rotate(0, x * rotationSpeed, 0);
+        transform.Translate(0, 0, z);
+
+
+    }
+	
 	void OnTriggerEnter(Collider other)
 	{
 		if(other.tag == "Enemy")
