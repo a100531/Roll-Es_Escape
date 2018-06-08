@@ -1539,6 +1539,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 9.938157
       objectReference: {fileID: 0}
+    - target: {fileID: 195202663861763244, guid: eb2480216db6b624c85eab1c3836ac83,
+        type: 2}
+      propertyPath: m_Speed
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb2480216db6b624c85eab1c3836ac83, type: 2}
   m_IsPrefabParent: 0
@@ -2061,6 +2066,11 @@ Prefab:
         type: 2}
       propertyPath: playerSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114969254036860606, guid: ec82ed4a918b60d438b08b726e98a2eb,
+        type: 2}
+      propertyPath: rotationSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec82ed4a918b60d438b08b726e98a2eb, type: 2}
