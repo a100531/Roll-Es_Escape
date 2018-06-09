@@ -6,12 +6,17 @@ using UnityEngine.AI;
 public class Player : MonoBehaviour
 {
 
+    public Enemy enemy;
+    public Vector3 startingPosition;
     public float playerSpeed = 10;
     public float rotationSpeed = 5;
     public static bool chase;
     // Use this for initialization
     void Start () {
         chase = false;
+        Enemy enemy = GameObject.FindObjectOfType(typeof(Enemy)) as Enemy;
+        enemy.Respawn();
+        startingPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 	
 	// Update is called once per frame
@@ -40,17 +45,21 @@ public class Player : MonoBehaviour
 		if(other.tag == "Enemy")
 		{
 			Debug.Log("you are dead");
-    
-		}
+            enemy.Respawn();
+            chase = false;
+            gameObject.transform.position = startingPosition;
+        }
 		if(other.tag == "Safe House")
 		{
-			if(!chase)
+            //respawnEnemy = true;
+            if (!chase)
 			{
 				chase = true;
-				Debug.Log("RUN!!!");
+                Debug.Log("RUN!!!");
 			}
 			else
 			{
+                enemy.Respawn();
 				chase = false;
                 Debug.Log("YOU ARE SAFE");
 			}

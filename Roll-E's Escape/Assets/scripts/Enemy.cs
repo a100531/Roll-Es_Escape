@@ -5,16 +5,14 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour{
 
-	public Camera cam;
-
 	public GameObject player;
-    public GameObject spawner;
 
     //public Player playerScript;
 
 	public Vector3 playerPosition;
-    //public Vector3 spawnerPosition;
+    public Vector3 spawnerPosition;
     public NavMeshAgent agent;
+    public GameObject[] spawnPoint;
     // Update is called once per frame
 
     void Start()
@@ -22,7 +20,7 @@ public class Enemy : MonoBehaviour{
 
         //chase = false;
         //spawnerPosition = new Vector3(spawner.transform.position.x, spawner.transform.position.y, spawner.transform.position.z);
-        //agent.Warp(spawnerPosition);
+        //
     }
 
     void Update () {
@@ -34,6 +32,7 @@ public class Enemy : MonoBehaviour{
             playerPosition = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
             agent.SetDestination(playerPosition);
         }
+
 			
 		
 	}
@@ -42,8 +41,17 @@ public class Enemy : MonoBehaviour{
     {
         if (other.tag == "Safe House")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            Respawn();
         }
      
     }
+
+    public void Respawn()
+    {
+        int spawnIndex = Random.Range(0, spawnPoint.Length);
+        spawnerPosition = new Vector3(spawnPoint[spawnIndex].transform.position.x, spawnPoint[spawnIndex].transform.position.y, spawnPoint[spawnIndex].transform.position.z);
+        agent.Warp(spawnerPosition);
+    }
+        
 }
