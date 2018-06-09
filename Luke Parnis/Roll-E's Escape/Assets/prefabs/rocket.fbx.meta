@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: bf6eba95e27cfbb41a7a53fccb02539b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Cockpit
+    100004: Cockpit_body
+    100006: Cockpit_connector
+    100008: Cockpit_window_1
+    100010: Cockpit_window_2
+    100012: Head
+    100014: Head_connector
+    100016: Left_body
+    100018: Left_bottom_connector
+    100020: Left_holder
+    100022: Left_thruster
+    100024: Left_top
+    100026: Left_top_connector
+    100028: Left_wing
+    100030: Right_body
+    100032: Right_bottom_connector
+    100034: Right_holder
+    100036: Right_thruster
+    100038: Right_Top
+    100040: Right_Top_connector
+    100042: Right_wing
+    100044: //RootNode
+    100046: Thruster
+    100048: Thruster 1
+    100050: Thruster_connector
+    100052: Top
+    400000: Body
+    400002: Cockpit
+    400004: Cockpit_body
+    400006: Cockpit_connector
+    400008: Cockpit_window_1
+    400010: Cockpit_window_2
+    400012: Head
+    400014: Head_connector
+    400016: Left_body
+    400018: Left_bottom_connector
+    400020: Left_holder
+    400022: Left_thruster
+    400024: Left_top
+    400026: Left_top_connector
+    400028: Left_wing
+    400030: Right_body
+    400032: Right_bottom_connector
+    400034: Right_holder
+    400036: Right_thruster
+    400038: Right_Top
+    400040: Right_Top_connector
+    400042: Right_wing
+    400044: //RootNode
+    400046: Thruster
+    400048: Thruster 1
+    400050: Thruster_connector
+    400052: Top
+    2100000: aiStandardSurface2
+    2100002: aiStandardSurface7
+    2100004: aiStandardSurface11
+    2100006: aiStandardSurface5
+    2100008: aiStandardSurface21
+    2100010: aiStandardSurface6
+    2100012: aiStandardSurface22
+    2100014: aiStandardSurface8
+    2100016: aiStandardSurface20
+    2100018: aiStandardSurface10
+    2100020: aiStandardSurface18
+    2100022: aiStandardSurface9
+    2100024: aiStandardSurface12
+    2100026: aiStandardSurface4
+    2100028: aiStandardSurface14
+    2100030: aiStandardSurface3
+    2100032: aiStandardSurface13
+    2100034: aiStandardSurface15
+    2100036: aiStandardSurface16
+    2100038: aiStandardSurface1
+    2100040: aiStandardSurface19
+    2300000: Body
+    2300002: Cockpit_body
+    2300004: Cockpit_connector
+    2300006: Cockpit_window_1
+    2300008: Cockpit_window_2
+    2300010: Head
+    2300012: Head_connector
+    2300014: Left_body
+    2300016: Left_bottom_connector
+    2300018: Left_holder
+    2300020: Left_thruster
+    2300022: Left_top
+    2300024: Left_top_connector
+    2300026: Right_body
+    2300028: Right_bottom_connector
+    2300030: Right_holder
+    2300032: Right_thruster
+    2300034: Right_Top
+    2300036: Right_Top_connector
+    2300038: Thruster 1
+    2300040: Thruster_connector
+    3300000: Body
+    3300002: Cockpit_body
+    3300004: Cockpit_connector
+    3300006: Cockpit_window_1
+    3300008: Cockpit_window_2
+    3300010: Head
+    3300012: Head_connector
+    3300014: Left_body
+    3300016: Left_bottom_connector
+    3300018: Left_holder
+    3300020: Left_thruster
+    3300022: Left_top
+    3300024: Left_top_connector
+    3300026: Right_body
+    3300028: Right_bottom_connector
+    3300030: Right_holder
+    3300032: Right_thruster
+    3300034: Right_Top
+    3300036: Right_Top_connector
+    3300038: Thruster 1
+    3300040: Thruster_connector
+    4300000: Body
+    4300002: Right_body
+    4300004: Right_holder
+    4300006: Right_Top
+    4300008: Right_Top_connector
+    4300010: Right_thruster
+    4300012: Right_bottom_connector
+    4300014: Left_body
+    4300016: Left_holder
+    4300018: Left_top
+    4300020: Left_top_connector
+    4300022: Left_thruster
+    4300024: Left_bottom_connector
+    4300026: Head
+    4300028: Head_connector
+    4300030: Cockpit_body
+    4300032: Cockpit_connector
+    4300034: Cockpit_window_1
+    4300036: Cockpit_window_2
+    4300038: Thruster
+    4300040: Thruster_connector
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Body1
+    second: {fileID: 2800000, guid: ace5abae36933bd4dba9e7cb8cec6dad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit1
+    second: {fileID: 2800000, guid: 18d82fd4eb055d94aa0cb33c60d8c472, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit_Connector1
+    second: {fileID: 2800000, guid: e0e0f744e78384545ab28c1229148154, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit_window_1_1
+    second: {fileID: 2800000, guid: 36d0c5c59164c3e45af4d8843d247d77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cockpit_window_2_1
+    second: {fileID: 2800000, guid: b1ea33cb5259d0d469a44b38454f1814, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head1
+    second: {fileID: 2800000, guid: d88042a101c75fa42928ef924ecd13eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head_connector1
+    second: {fileID: 2800000, guid: bccf0656ca1e2ae4685f1c577fce46b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_Thruster1
+    second: {fileID: 2800000, guid: 62ef33b4cc9b8ff469a128fcfb5d696f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_body1
+    second: {fileID: 2800000, guid: e1a35786677db0a46908c13bf1632eb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_bottom_connector1
+    second: {fileID: 2800000, guid: d8c9bb33e31b22b47b8ea79f16b42804, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_top1
+    second: {fileID: 2800000, guid: 0267dd5a4dad0a14b991001ac61f25ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_top_connector1
+    second: {fileID: 2800000, guid: 5319d1bff23af2a49b025ff14f307f2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_wing_holder1
+    second: {fileID: 2800000, guid: 5ff9910e2200cb4489061c076d2dc44c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_Thruster1
+    second: {fileID: 2800000, guid: 716d5715327ed234481d406f3684f86f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_body1
+    second: {fileID: 2800000, guid: cc03f10af9dab12408c1b24b48550a8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_bottom_connector1
+    second: {fileID: 2800000, guid: 80997e2cd628f69428bb1fdda3abdf65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_holder1
+    second: {fileID: 2800000, guid: 6c021722c337577448fdbe48e68a14a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_top2
+    second: {fileID: 2800000, guid: 3d5ab1685e87aa54fb73af369eb98f71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_top_connector1
+    second: {fileID: 2800000, guid: 33e872dad39ff8b4d9901e03f67fd100, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Thruster1
+    second: {fileID: 2800000, guid: 6354f298058b33a4a88354615ad55e96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Thruster_connector1
+    second: {fileID: 2800000, guid: 26d675191fe122543b7067e7583cbee3, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

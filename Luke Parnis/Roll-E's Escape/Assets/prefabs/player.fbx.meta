@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: e770eddd86fa836419a1118ee993e939
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Big_eye
+    100002: Body
+    100004: Head
+    100006: Head 1
+    100008: Left_arm1
+    100010: Left_finger_1
+    100012: Left_finger_2
+    100014: Left_hand
+    100016: Left_joint
+    100018: Left_wrist
+    100020: LeftArm
+    100022: Legs
+    100024: Little_eye
+    100026: LowerBody
+    100028: Mouth
+    100030: //RootNode
+    100032: Right_arm1
+    100034: Right_finger_1
+    100036: Right_finger_2
+    100038: Right_hand
+    100040: Right_joint
+    100042: Right_wrist
+    100044: RightArm
+    100046: Waist
+    100048: Wheel
+    400000: Big_eye
+    400002: Body
+    400004: Head
+    400006: Head 1
+    400008: Left_arm1
+    400010: Left_finger_1
+    400012: Left_finger_2
+    400014: Left_hand
+    400016: Left_joint
+    400018: Left_wrist
+    400020: LeftArm
+    400022: Legs
+    400024: Little_eye
+    400026: LowerBody
+    400028: Mouth
+    400030: //RootNode
+    400032: Right_arm1
+    400034: Right_finger_1
+    400036: Right_finger_2
+    400038: Right_hand
+    400040: Right_joint
+    400042: Right_wrist
+    400044: RightArm
+    400046: Waist
+    400048: Wheel
+    2100000: aiStandardSurface1
+    2100002: aiStandardSurface9
+    2100004: aiStandardSurface8
+    2100006: aiStandardSurface20
+    2100008: aiStandardSurface2
+    2100010: aiStandardSurface3
+    2100012: aiStandardSurface6
+    2100014: aiStandardSurface7
+    2100016: aiStandardSurface12
+    2100018: aiStandardSurface10
+    2100020: aiStandardSurface11
+    2100022: aiStandardSurface14
+    2100024: aiStandardSurface5
+    2100026: aiStandardSurface13
+    2100028: aiStandardSurface19
+    2100030: aiStandardSurface17
+    2100032: aiStandardSurface18
+    2100034: aiStandardSurface15
+    2100036: aiStandardSurface4
+    2100038: aiStandardSurface16
+    2300000: Big_eye
+    2300002: Body
+    2300004: Head 1
+    2300006: Left_arm1
+    2300008: Left_finger_1
+    2300010: Left_finger_2
+    2300012: Left_hand
+    2300014: Left_joint
+    2300016: Left_wrist
+    2300018: Legs
+    2300020: Little_eye
+    2300022: Mouth
+    2300024: Right_arm1
+    2300026: Right_finger_1
+    2300028: Right_finger_2
+    2300030: Right_hand
+    2300032: Right_joint
+    2300034: Right_wrist
+    2300036: Waist
+    2300038: Wheel
+    3300000: Big_eye
+    3300002: Body
+    3300004: Head 1
+    3300006: Left_arm1
+    3300008: Left_finger_1
+    3300010: Left_finger_2
+    3300012: Left_hand
+    3300014: Left_joint
+    3300016: Left_wrist
+    3300018: Legs
+    3300020: Little_eye
+    3300022: Mouth
+    3300024: Right_arm1
+    3300026: Right_finger_1
+    3300028: Right_finger_2
+    3300030: Right_hand
+    3300032: Right_joint
+    3300034: Right_wrist
+    3300036: Waist
+    3300038: Wheel
+    4300000: Head
+    4300002: Big_eye
+    4300004: Little_eye
+    4300006: Mouth
+    4300008: Body
+    4300010: Waist
+    4300012: Legs
+    4300014: Wheel
+    4300016: Right_finger_1
+    4300018: Right_hand
+    4300020: Right_finger_2
+    4300022: Right_joint
+    4300024: Right_wrist
+    4300026: Right_arm1
+    4300028: Left_finger_1
+    4300030: Left_hand
+    4300032: Left_finger_2
+    4300034: Left_joint
+    4300036: Left_wrist
+    4300038: Left_arm1
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Big_eye3
+    second: {fileID: 2800000, guid: fc6b56b062a236e4282986cfc4576481, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head1
+    second: {fileID: 2800000, guid: b3db2d985f7684246bd6e89bdb63ba34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_arm1
+    second: {fileID: 2800000, guid: 1142fe32330c1984f9333a40f6f38204, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_finger_1_1
+    second: {fileID: 2800000, guid: c70069a4fd5fba249b32f2abfb37c91c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_finger_2_1
+    second: {fileID: 2800000, guid: 2911c730a99570e40ab9764ff3f89a32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_hand1
+    second: {fileID: 2800000, guid: fe6664f28baeea74c92e11c150ea8527, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_joint1
+    second: {fileID: 2800000, guid: 5a387b811e223164cb246b1f2371296d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Left_wrist1
+    second: {fileID: 2800000, guid: 8221e155026de244cb2425175fbaf190, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Legs1
+    second: {fileID: 2800000, guid: bdca9d020c81ff845b84c960ab5745b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Little_eye3
+    second: {fileID: 2800000, guid: a1bdb740eca33864fae773ea52364b1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mouth1
+    second: {fileID: 2800000, guid: 490565c0d10861349936b604591ef1f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_Wrist1
+    second: {fileID: 2800000, guid: 9201c6ad0d9b23a4dad3b738207c4ce6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_arm1
+    second: {fileID: 2800000, guid: b913e8f20be2c1649983abd0c1a5a59f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_finger_1_1
+    second: {fileID: 2800000, guid: dfe47d577d3e13d438a61d38cfd7f9ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_finger_2_2
+    second: {fileID: 2800000, guid: df7db3ec7f13af54880a8cea8d0ec877, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_hand2
+    second: {fileID: 2800000, guid: df2b716e2edca01459afd49c52e70cd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Right_joint1
+    second: {fileID: 2800000, guid: 802a758382e7a7747906d9b1b7baac58, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Waist1
+    second: {fileID: 2800000, guid: 48c8deb77a8249242af1ce1af0d960c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wheel1
+    second: {fileID: 2800000, guid: c02a32af41247be45a5221ceb3844e45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: body1
+    second: {fileID: 2800000, guid: 50378ae6511144e4995a85d0a9c46180, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
