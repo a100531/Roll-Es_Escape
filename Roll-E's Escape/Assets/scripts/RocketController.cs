@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RocketController : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class RocketController : MonoBehaviour {
     public GameObject[] rocketShow;
     private Vector3 spawnerPosition;
     public int counter;
+
 
     // Use this for initialization
     void Start () {
@@ -27,7 +29,10 @@ public class RocketController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(counter == 5)
+        {
+            SceneManager.LoadScene("YouWon");
+        }
 	}
 
     void OnTriggerEnter(Collider other)
