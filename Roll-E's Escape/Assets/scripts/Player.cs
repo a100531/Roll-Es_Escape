@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
 
     // Use this for initialization
     void Start () {
+        FindObjectOfType<AudioManager>().Play("SafeZone");
         chase = false;
         particle.SetActive(false);
         move = true;
@@ -69,6 +70,9 @@ public class Player : MonoBehaviour
 	{
 		if(other.tag == "Enemy" && !overCharge)
 		{
+            FindObjectOfType<AudioManager>().Stop("Danger");
+            FindObjectOfType<AudioManager>().Play("SafeZone");
+
             move = false;
             StartCoroutine("WaitForSpawn");
             Debug.Log("you are dead");
@@ -87,11 +91,15 @@ public class Player : MonoBehaviour
             //respawnEnemy = true;
             if (!chase)
 			{
-				chase = true;
+                FindObjectOfType<AudioManager>().Play("Danger");
+                FindObjectOfType<AudioManager>().Stop("SafeZone");
+                chase = true;
                 Debug.Log("RUN!!!");
 			}
 			else
 			{
+                FindObjectOfType<AudioManager>().Stop("Danger");
+                FindObjectOfType<AudioManager>().Play("SafeZone");
                 enemy.Respawn();
 				chase = false;
                 Debug.Log("YOU ARE SAFE");
