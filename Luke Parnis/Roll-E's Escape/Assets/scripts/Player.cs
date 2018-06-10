@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     // Use this for initialization
     void Start () {
         chase = false;
-		FindObjectOfType<AudioManager>().Play("SafeZone");
+		//FindObjectOfType<AudioManager>().Play("SafeZone");
     }
 	
 	// Update is called once per frame
@@ -33,8 +33,6 @@ public class Player : MonoBehaviour
         transform.Rotate(0, x * rotationSpeed, 0);
         transform.Translate(0, 0, z);
 
-		
-
 
     }
 	
@@ -42,7 +40,7 @@ public class Player : MonoBehaviour
 	{
 		if(other.tag == "Enemy")
 		{
-			FindObjectOfType<AudioManager>().Play("PlayerDeath");
+			//FindObjectOfType<AudioManager>().Play("PlayerDeath");
 			Debug.Log("you are dead");
     
 		}
@@ -50,16 +48,17 @@ public class Player : MonoBehaviour
 		{
 			if(!chase)
 			{
-				FindObjectOfType<AudioManager>().Play("Danger");
-				FindObjectOfType<AudioManager>().Stop("SafeZone");
-				
+                FindObjectOfType<AudioManager>().Play("Danger");
+                FindObjectOfType<AudioManager>().Stop("SafeZone");
+                
 				chase = true;
 				Debug.Log("RUN!!!");
 			}
 			else
 			{
-				FindObjectOfType<AudioManager>().Play("SafeZone");
-				FindObjectOfType<AudioManager>().Stop("Danger");
+                FindObjectOfType<AudioManager>().Stop("Danger");
+                FindObjectOfType<AudioManager>().Play("SafeZone");
+				
 				
 				chase = false;
                 Debug.Log("YOU ARE SAFE");
