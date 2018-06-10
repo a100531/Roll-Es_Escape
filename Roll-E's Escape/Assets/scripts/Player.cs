@@ -14,13 +14,20 @@ public class Player : MonoBehaviour
     public static bool chase;
     public NavMeshAgent agent;
     public bool move;
+    public int overChargeCounter;
+    public bool overCharge;
+    public GameObject particle;
+
     // Use this for initialization
     void Start () {
         chase = false;
+        particle.SetActive(false);
         move = true;
         Enemy enemy = GameObject.FindObjectOfType(typeof(Enemy)) as Enemy;
         enemy.Respawn();
         startingPosition = new Vector3(spawnPlayer.transform.position.x, spawnPlayer.transform.position.y, spawnPlayer.transform.position.z);
+        overChargeCounter = 0;
+        overCharge = false;
     }
 	
 	// Update is called once per frame
@@ -34,6 +41,10 @@ public class Player : MonoBehaviour
             transform.Rotate(0, x * rotationSpeed, 0);
             transform.Translate(0, 0, z);
         }
+        if (Input.GetKey(KeyCode.Space) && overChargeCounter == 1)
+        {
+            OverCharge();
+        }
         
 
 
@@ -41,18 +52,21 @@ public class Player : MonoBehaviour
 	
 	void OnTriggerEnter(Collider other)
 	{
-		if(other.tag == "Enemy")
+		if(other.tag == "Enemy" && !overCharge)
 		{
             move = false;
             StartCoroutine("WaitForSpawn");
             Debug.Log("you are dead");
             enemy.Respawn();
             chase = false;
-            agent.Warp(startingPosition);
-            
-            
+            agent.Warp(startingPosition);   
         }
-		if(other.tag == "Safe House")
+        if (other.tag == "Enemy" && overCharge)
+        {   
+            enemy.Respawn();
+        }
+
+        if (other.tag == "Safe House")
 		{
             //respawnEnemy = true;
             if (!chase)
@@ -77,5 +91,20 @@ public class Player : MonoBehaviour
         move = true;
     }
 
+    public void OverCharge()
+    {
+        overChargeCounter = 0;
+        overCharge = true;
+        particle.SetActive(true);
+        StartCoroutine("OverChargeDuration");
+    }
+
+    IEnumerator OverChargeDuration()
+    {
+        // suspend execution for 5 seconds
+        yield return new WaitForSeconds(10);
+        overCharge = false;
+        particle.SetActive(false);
+    }
 
 }
