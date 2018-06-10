@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
 
     public Enemy enemy;
+    public GameObject[] healthSprites;
     public GameObject spawnPlayer;
     public Vector3 startingPosition;
     public float playerSpeed = 10;
@@ -17,6 +18,7 @@ public class Player : MonoBehaviour
     public int overChargeCounter;
     public bool overCharge;
     public GameObject particle;
+    public int lives;
 
     // Use this for initialization
     void Start () {
@@ -28,6 +30,7 @@ public class Player : MonoBehaviour
         startingPosition = new Vector3(spawnPlayer.transform.position.x, spawnPlayer.transform.position.y, spawnPlayer.transform.position.z);
         overChargeCounter = 0;
         overCharge = false;
+        lives = 3;
     }
 	
 	// Update is called once per frame
@@ -45,7 +48,19 @@ public class Player : MonoBehaviour
         {
             OverCharge();
         }
-        
+        if (lives == 2)
+        {
+            healthSprites[2].SetActive(false);
+        }
+        else if (lives == 1)
+        {
+            healthSprites[1].SetActive(false);
+        }
+        else if (lives == 0)
+        {
+            //load game over scene
+        }
+
 
 
     }
@@ -59,7 +74,8 @@ public class Player : MonoBehaviour
             Debug.Log("you are dead");
             enemy.Respawn();
             chase = false;
-            agent.Warp(startingPosition);   
+            agent.Warp(startingPosition);
+            lives--;
         }
         if (other.tag == "Enemy" && overCharge)
         {   
