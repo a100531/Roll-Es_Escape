@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     public Enemy enemy;
     public GameObject[] healthSprites;
+    public GameObject overChargeSprite;
     public GameObject spawnPlayer;
     public Vector3 startingPosition;
     public float playerSpeed = 10;
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("SafeZone");
         chase = false;
         particle.SetActive(false);
+        overChargeSprite.SetActive(false);
         move = true;
         Enemy enemy = GameObject.FindObjectOfType(typeof(Enemy)) as Enemy;
         enemy.Respawn();
@@ -44,6 +46,10 @@ public class Player : MonoBehaviour
 
             transform.Rotate(0, x * rotationSpeed, 0);
             transform.Translate(0, 0, z);
+        }
+        if(overChargeCounter == 1)
+        {
+            overChargeSprite.SetActive(true);
         }
         if (Input.GetKey(KeyCode.Space) && overChargeCounter == 1)
         {
@@ -120,6 +126,7 @@ public class Player : MonoBehaviour
         overChargeCounter = 0;
         overCharge = true;
         particle.SetActive(true);
+        overChargeSprite.SetActive(false);
         StartCoroutine("OverChargeDuration");
     }
 
