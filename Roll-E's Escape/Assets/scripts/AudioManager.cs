@@ -12,7 +12,7 @@ public class AudioManager : MonoBehaviour {
 			s.source = gameObject.AddComponent<AudioSource>();
 			s.source.clip = s.clip;
 
-			//s.source.volume = s.volume;
+			s.source.volume = s.volume;
 			s.source.pitch = s.pitch;
 		}
 	}
@@ -20,12 +20,12 @@ public class AudioManager : MonoBehaviour {
 	// Update is called once per frame
 	public void Play (string name){
 		Sound s = Array.Find(sounds,sound =>sound.name == name);
-        StartCoroutine(AudioFadeScript.FadeIn(s.source, 5f, 1f));
+        s.source.Play();
     }
 
 	public void Stop(string name){
 		Sound s = Array.Find(sounds,sound =>sound.name == name);
-        StartCoroutine(AudioFadeScript.FadeOut(s.source, 0.5f));
+        s.source.Stop();
 
     }
 
